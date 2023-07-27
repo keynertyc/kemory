@@ -37,7 +37,7 @@ Enjoy playing KEMORY GAME and test your memory skills with exciting random image
 - Name: Keyner TYC
 - Email: keyner.peru@gmail.com
 
-## Screenshot
+## Screenshots
 
 ![Screenshot 1](https://i.imgur.com/f1UbocU.png)
 ![Screenshot 2](https://i.imgur.com/IJ9nOHJ.png)
