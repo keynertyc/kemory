@@ -1,34 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# KEMORY
+
+KEMORY GAME is a fun and challenging memory game inspired by the classic memory game. The unique feature of KEMORY GAME is that it generates random images using the "Google Custom Search API" based on the topic entered by the user. The game consists of a 4x4 grid of cards, and players need to match pairs of cards with the same image to win the game. The number of movements taken to complete the game is displayed on the screen.
+
+## Technologies and Frameworks Used
+
+- Next.js 13.4.x
+- TailwindCSS 3.3.x
+- TypeScript
 
 ## Getting Started
 
-First, run the development server:
+To run the KEMORY GAME locally on your machine, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. Clone the repository: `git clone https://github.com/keynertyc/kemory.git`
+2. Navigate to the project folder: `cd kemory`
+3. Install dependencies: `npm install` or `yarn install`
+4. Set up your Google Custom Search API key and CX ID and add them to the project's environment variables.
+5. Start the development server: `npm run dev` or `yarn dev`
+6. Open your browser and go to `http://localhost:3000` to play the game.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How to Play
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. On the game's home screen, you will see an input field where you can enter a topic (e.g., "animals," "cars," "nature," etc.).
+2. Press the "Generate Images" button to fetch random images related to the entered topic using the Google Custom Search API.
+3. The cards will be generated with the fetched images, and they will be shuffled and placed face down on the grid.
+4. Click on a card to flip it and reveal the image. Remember the position of each image.
+5. Click on another card to flip it and reveal the image. If the two images match, they will remain face up. Otherwise, they will be flipped back face down.
+6. Continue flipping cards and matching pairs until all pairs are found.
+7. The game will keep track of the number of movements taken to complete the game, and it will be displayed on the screen.
+8. Once all pairs are matched, the game will show a success message, and you can restart the game with a new topic.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Enjoy playing KEMORY GAME and test your memory skills with exciting random images! Have fun!
