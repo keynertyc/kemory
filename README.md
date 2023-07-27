@@ -31,3 +31,16 @@ To run the KEMORY GAME locally on your machine, follow these steps:
 8. Once all pairs are matched, the game will show a success message, and you can restart the game with a new topic.
 
 Enjoy playing KEMORY GAME and test your memory skills with exciting random images! Have fun!
+
+## Author
+
+- Name: Keyner TYC
+- Email: keyner.peru@gmail.com
+
+## Screenshot
+
+![Screenshot 1](https://i.imgur.com/f1UbocU.png)
+![Screenshot 2](https://i.imgur.com/IJ9nOHJ.png)
+![Screenshot 3](https://i.imgur.com/kztav07.png)
+![Screenshot 4](https://i.imgur.com/DDzBnfW.png)
+![Screenshot 5](https://i.imgur.com/m82fQcr.png)
